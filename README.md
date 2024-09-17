@@ -9,10 +9,21 @@ This model can save a lot of customers time by summarizing the whole bunch of
 reviews and displaying them in form of plots so that the customer can make
 better purchase decision.
 
+## Libraries Used:
+- `BeautifulSoup`
+- `requests`
+- `pandas`
+- `time`
 
+## How to Run:
+1. Clone this repository.
+2. Install the required libraries: `pip install -r requirements.txt`.
+3. Modify the `product_url` with the URL of the product's review page.
+4. Run the script.
+5. Follow Demo.
 ## Demo
 
-**Paste the URL in the below model and enter the starting page number (i:e 1) and also 
+**Paste the URL of product in the below model and enter the starting page number (i:e 1) and also 
 the number of pages you want to surf through the reviews and hit "Get Summary".**
 
 ![demo1](demo1.PNG)
